@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.category_container {
+	margin: 0 0 1rem 1.5rem;
+}
+.category_title {
+	font-size: 12px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	color: rgb(187, 187, 187);
+	letter-spacing: 1.5px;
+}

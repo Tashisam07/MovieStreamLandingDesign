@@ -1,0 +1,27 @@
+.sidebar_row_container {
+	display: flex;
+	margin-top: 0.8rem;
+}
+.sidebar_row_container:hover {
+	border-right-style: solid;
+	border-width: 2px;
+	border-color: rgb(255, 0, 157);
+}
+.sidebar_row_container:hover > .icon_container {
+	color: rgb(255, 0, 157);
+}
+.sidebar_row_container:hover > .nav_title_container {
+	color: rgb(255, 0, 157);
+}
+.icon_container {
+	margin-right: 1rem;
+	font-size: large !important;
+	color: #606060;
+}
+.nav_title_container {
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	color: #606060;
+	letter-spacing: 1px;
+}

@@ -1,0 +1,24 @@
+.right_sidebar_container {
+	position: sticky;
+	flex: 0.2;
+	top: 0;
+	margin-left: 1rem;
+	border-left-style: solid;
+	border-width: 1px;
+	border-color: #606060;
+}
+.header_search {
+	margin: 1.5rem;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	height: 20px;
+	color: #606060;
+	background-color: rgb(224, 245, 255);
+}
+.header_search > input {
+	outline: none;
+	border: none;
+	background: none;
+}

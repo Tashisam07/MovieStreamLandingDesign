@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.title {
+	margin-top: 1rem;
+	font-size: 18px;
+	letter-spacing: 1.5px;
+	font-family: "Bebas Neue", sans-serif;
+	font-weight: 600;
+}
+.row_posters {
+	display: flex;
+	padding: 20px;
+	overflow-y: hidden;
+	scrollbar-width: none;
+	overflow-x: scroll;
+}
+.row_posters::-webkit-scrollbar {
+	display: none !important;
+}
+
+.row_poster {
+	max-width: 100%;
+	object-fit: contain;
+	max-height: 100px;
+	margin-right: 10px;
+	transition: transform 450ms;
+}
+.row_poster:hover {
+	transform: scale(1.08);
+}
+
+.row_posterLarge {
+	max-height: 250px;
+}
+.row_posterLarge:hover {
+	transform: scale(1.09);
+}

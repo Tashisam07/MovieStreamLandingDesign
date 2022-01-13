@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.nav_container {
+	width: 100%;
+	margin: 2rem 2rem 1rem 0;
+}
+.nav_items {
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.nav_item {
+	margin-right: 1rem;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #606060;
+	cursor: pointer;
+}
+.active {
+	color: rgb(10, 10, 10);
+}
